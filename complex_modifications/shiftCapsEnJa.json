@@ -1,0 +1,23 @@
+{
+    "title": "日本語英語切り替え(US配列 Windows Shift Caps風)",
+    "maintainers": [
+      "yn1323"
+    ],
+    "rules": [{
+    "description": "前提：Macの言語切替がShift, option, command, control, tabであること",
+    "manipulators": [
+        { "type": "basic",
+          "from": {
+            "key_code": "caps_lock",
+            "modifiers": { "mandatory": [ "shift" ] }
+          },
+          "to": [
+            {
+              "key_code": "tab",
+              "modifiers": ["shift", "option", "command", "control" ]
+            }
+          ]
+        }
+      ]
+  }
+]}
