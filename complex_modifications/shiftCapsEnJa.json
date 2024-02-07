@@ -4,7 +4,7 @@
       "yn1323"
     ],
     "rules": [{
-    "description": "前提：Macの言語切替がShift, option, command, control, tabであること",
+    "description": "日本語英語切り替え(US配列 Windows Shift Caps風)",
     "manipulators": [
         { "type": "basic",
           "from": {
