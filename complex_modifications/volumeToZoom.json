@@ -13,7 +13,7 @@
           "key_code": "volume_decrement",
           "modifiers": {
             "mandatory": [
-              "left_shift"
+              "left_command"
             ]
           }
         },
@@ -38,7 +38,7 @@
           "key_code": "volume_increment",
           "modifiers": {
             "mandatory": [
-              "left_shift"
+              "left_command"
             ]
           }
         },
@@ -47,6 +47,25 @@
             "key_code": "equal_sign",
             "modifiers": [
               "left_shift",
+              "left_command"
+            ]
+          }
+        ]
+      }
+    ]
+    },
+    {
+    "description": "Chromeズームリセット",
+    "manipulators": [
+      {
+        "type": "basic",
+        "from": {
+          "key_code": "mute"
+        },
+        "to": [
+          {
+            "key_code": "0",
+            "modifiers": [
               "left_command"
             ]
           }
