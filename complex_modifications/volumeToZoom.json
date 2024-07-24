@@ -1,0 +1,58 @@
+{
+    "title": "ボリュームをズームに変更",
+    "maintainers": [
+      "yn1323"
+    ],
+    "rules": [
+    {
+    "description": "ボリュームDownでズームアウトに変更",
+    "manipulators": [
+      {
+        "type": "basic",
+        "from": {
+          "key_code": "volume_decrement",
+          "modifiers": {
+            "mandatory": [
+              "left_shift"
+            ]
+          }
+        },
+        "to": [
+          {
+            "key_code": "hyphen",
+            "modifiers": [
+              "left_shift",
+              "left_command"
+            ]
+          }
+        ]
+      }
+    ]
+    },
+    {
+    "description": "ボリュームUpでズームインに変更",
+    "manipulators": [
+      {
+        "type": "basic",
+        "from": {
+          "key_code": "volume_increment",
+          "modifiers": {
+            "mandatory": [
+              "left_shift"
+            ]
+          }
+        },
+        "to": [
+          {
+            "key_code": "equal_sign",
+            "modifiers": [
+              "left_shift",
+              "left_command"
+            ]
+          }
+        ]
+      }
+    ]
+    }
+  ]
+}
