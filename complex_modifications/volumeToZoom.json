@@ -21,7 +21,6 @@
           {
             "key_code": "hyphen",
             "modifiers": [
-              "left_shift",
               "left_command"
             ]
           }
@@ -46,7 +45,6 @@
           {
             "key_code": "equal_sign",
             "modifiers": [
-              "left_shift",
               "left_command"
             ]
           }
