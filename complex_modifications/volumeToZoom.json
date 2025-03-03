@@ -58,7 +58,12 @@
       {
         "type": "basic",
         "from": {
-          "key_code": "mute"
+          "key_code": "mute",
+          "modifiers": {
+            "mandatory": [
+              "left_command"
+            ]
+          }
         },
         "to": [
           {

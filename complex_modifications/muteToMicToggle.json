@@ -1,0 +1,28 @@
+{
+  "title": "ミュートボタンでTeamsのマイクオンオフ",
+  "maintainers": [
+    "yn1323"
+  ],
+  "rules": [
+    {
+      "description": "ミュートボタンでTeamsのマイクオンオフ",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "mute"
+          },
+          "to": [
+            {
+              "key_code": "m",
+              "modifiers": [
+                "left_shift",
+                "left_command"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
