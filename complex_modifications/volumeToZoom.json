@@ -1,134 +1,120 @@
 {
-    "title": "ボリュームをズームに変更",
-    "maintainers": [
-      "yn1323"
-    ],
-    "rules": [
+  "title": "ボリュームをズームに変更",
+  "maintainers": ["yn1323"],
+  "rules": [
     {
-    "description": "ボリュームDownでズームアウトに変更（音量トグルあり）",
-    "manipulators": [
-      {
-        "type": "basic",
-        "from": {
-          "key_code": "volume_decrement",
-          "modifiers": {
-            "mandatory": [
-              "left_command"
-            ]
-          }
-        },
-        "to": [
-          {
-            "key_code": "hyphen",
-            "modifiers": [
-              "left_command"
-            ]
-          }
-        ]
-      }
-    ]
+      "description": "ボリュームDownでズームアウトに変更（音量トグルあり）",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "volume_decrement",
+            "modifiers": {
+              "mandatory": ["left_command"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "hyphen",
+              "modifiers": ["left_command"]
+            }
+          ]
+        }
+      ]
     },
     {
       "description": "Command+Deleteでズームアウト（音量トグルなし）",
       "manipulators": [
-          {
-              "from": {
-                  "key_code": "home",
-                  "modifiers": { "mandatory": ["left_command"] }
-              },
-              "to": [
-                  {
-                      "key_code": "hyphen",
-                      "modifiers": ["left_command"]
-                  }
-              ],
-              "type": "basic"
-          }
+        {
+          "from": {
+            "key_code": "home",
+            "modifiers": { "mandatory": ["left_command"] }
+          },
+          "to": [
+            {
+              "key_code": "hyphen",
+              "modifiers": ["left_command"]
+            }
+          ],
+          "type": "basic"
+        }
       ]
     },
     {
-    "description": "ボリュームUpでズームインに変更（音量トグルあり）",
-    "manipulators": [
-      {
-        "type": "basic",
-        "from": {
-          "key_code": "volume_increment",
-          "modifiers": {
-            "mandatory": [
-              "left_command"
-            ]
-          }
-        },
-        "to": [
-          {
-            "key_code": "equal_sign",
-            "modifiers": [
-              "left_command"
-            ]
-          }
-        ]
-      }
-    ]
+      "description": "ボリュームUpでズームインに変更（音量トグルあり）",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "volume_increment",
+            "modifiers": {
+              "mandatory": ["left_command"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "equal_sign",
+              "modifiers": ["left_command"]
+            }
+          ]
+        }
+      ]
     },
     {
       "description": "Command+Homeでズームイン（音量トグルなし）",
       "manipulators": [
-          {
-              "from": {
-                  "key_code": "f12",
-                  "modifiers": { "mandatory": ["left_command"] }
-              },
-              "to": [
-                  {
-                      "key_code": "equal_sign",
-                      "modifiers": ["left_command"]
-                  }
-              ],
-              "type": "basic"
-          }
+        {
+          "from": {
+            "key_code": "f12",
+            "modifiers": { "mandatory": ["left_command"] }
+          },
+          "to": [
+            {
+              "key_code": "equal_sign",
+              "modifiers": ["left_command"]
+            }
+          ],
+          "type": "basic"
+        }
       ]
     },
     {
-    "description": "Chromeズームリセット（音量トグルあり）",
-    "manipulators": [
-      {
-        "type": "basic",
-        "from": {
-          "key_code": "mute",
-          "modifiers": {
-            "mandatory": [
-              "left_command"
-            ]
-          }
-        },
-        "to": [
-          {
-            "key_code": "0",
-            "modifiers": [
-              "left_command"
-            ]
-          }
-        ]
-      }
-    ]
+      "description": "Chromeズームリセット（音量トグルあり）",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "mute",
+            "modifiers": {
+              "mandatory": ["left_command"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "0",
+              "modifiers": ["left_command"]
+            }
+          ]
+        }
+      ]
     },
     {
       "description": "Chromeズームリセット（音量トグルなし）",
       "manipulators": [
-          {
-              "from": {
-                  "key_code": "end",
-                  "modifiers": { "mandatory": ["left_command"] }
-              },
-              "to": [
-                  {
-                      "key_code": "0",
-                      "modifiers": ["left_command"]
-                  }
-              ],
-              "type": "basic"
-          }
+        {
+          "from": {
+            "key_code": "end",
+            "modifiers": { "mandatory": ["left_command"] }
+          },
+          "to": [
+            {
+              "key_code": "0",
+              "modifiers": ["left_command"]
+            }
+          ],
+          "type": "basic"
+        }
       ]
-  }
+    }
   ]
 }

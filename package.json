@@ -1,0 +1,22 @@
+{
+  "name": "karabiner",
+  "version": "1.0.0",
+  "description": "rules以下のオブジェクトを利用",
+  "main": "index.js",
+  "scripts": {
+    "lint:fix": "biome check --write complex_modifications"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yn1323/karabiner.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yn1323/karabiner/issues"
+  },
+  "homepage": "https://github.com/yn1323/karabiner#readme",
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4"
+  }
+}

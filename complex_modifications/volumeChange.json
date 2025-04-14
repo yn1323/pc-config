@@ -1,0 +1,46 @@
+{
+  "title": "ボリューム変更",
+  "maintainers": ["yn1323"],
+  "rules": [
+    {
+      "description": "Command+PageUpで音量増",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "page_up",
+            "modifiers": {
+              "mandatory": ["left_command"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "volume_increment",
+              "modifiers": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Command+PageDown音量減",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "page_down",
+            "modifiers": {
+              "mandatory": ["left_command"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "volume_decrement",
+              "modifiers": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

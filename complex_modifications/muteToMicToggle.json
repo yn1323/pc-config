@@ -1,8 +1,6 @@
 {
   "title": "ミュートボタンでTeamsのマイクオンオフ",
-  "maintainers": [
-    "yn1323"
-  ],
+  "maintainers": ["yn1323"],
   "rules": [
     {
       "description": "ミュートボタンでTeamsのマイクオンオフ",
@@ -15,10 +13,7 @@
           "to": [
             {
               "key_code": "m",
-              "modifiers": [
-                "left_shift",
-                "left_command"
-              ]
+              "modifiers": ["left_shift", "left_command"]
             }
           ]
         }

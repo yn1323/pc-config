@@ -1,15 +1,15 @@
 {
-    "title": "KeychronのCaptureボタンをF12に変更",
-    "maintainers": [
-      "yn1323"
-    ],
-    "rules": [{
-    "description": "KeychronのCaptureボタンをF12に変更",
-    "manipulators": [
-        { "type": "basic",
+  "title": "KeychronのCaptureボタンをF12に変更",
+  "maintainers": ["yn1323"],
+  "rules": [
+    {
+      "description": "KeychronのCaptureボタンをF12に変更",
+      "manipulators": [
+        {
+          "type": "basic",
           "from": {
             "key_code": "4",
-            "modifiers": { "mandatory": [ "command", "shift" ] }
+            "modifiers": { "mandatory": ["command", "shift"] }
           },
           "to": [
             {
@@ -19,5 +19,6 @@
           ]
         }
       ]
-  }
-]}
+    }
+  ]
+}
